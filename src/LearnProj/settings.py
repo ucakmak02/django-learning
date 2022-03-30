@@ -54,7 +54,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR, 'LearnProj/templates')],
-        'APP_DIRS': True,
+        'APP_DIRS': True,  # We can access to other files thanks to this line
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
